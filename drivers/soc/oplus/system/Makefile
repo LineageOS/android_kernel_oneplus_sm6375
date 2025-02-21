@@ -4,6 +4,7 @@
 obj-y 	+= platform.o
 obj-$(CONFIG_OPLUS_FEATURE_OPROJECT) 	+= oplus_project/
 obj-$(CONFIG_OPLUS_FEATURE_CMDLINE)     += cmdline_parser/
+obj-$(CONFIG_OPLUS_FEATURE_MM_FEEDBACK) += oplus_mm_fb/
 
 ifdef CONFIG_OPLUS_SYSTEM_KERNEL_QCOM
 obj-$(CONFIG_OPLUS_FEATURE_PROJECTINFO)	+=  project_info/
